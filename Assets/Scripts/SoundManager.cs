@@ -38,7 +38,7 @@ public class SoundManager : MonoBehaviour
         // включаем режим зацикливания и воспроизводим его
         audioSource.clip = bgSoundClip;
         audioSource.loop = true; // Включаем зацикливание
-        audioSource.volume = 0.7f;
+        audioSource.volume = 0.5f;
         audioSource.Play();
     }
 
@@ -47,16 +47,16 @@ public class SoundManager : MonoBehaviour
         // Проверяем положение целевого трансформа
         if (targetTransform != null && targetTransform.position.y < -5f && !gameIsOver)
         {
-            if (soundCoroutine != null)
-            {
-                StopCoroutine(soundCoroutine);
-            }
             PlayGameOver();
         }
     }
 
-    void PlayGameOver()
+    public void PlayGameOver()
     {
+        if (soundCoroutine != null)
+        {
+            StopCoroutine(soundCoroutine);
+        }
         gameIsOver = true;
         audioSource.clip = deathSoundClip;
         audioSource.volume = 1f;

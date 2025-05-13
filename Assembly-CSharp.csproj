@@ -53,10 +53,13 @@
     <UnityVersion>2020.3.30f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\GasMaskPickUp.cs" />
     <Compile Include="Assets\Scripts\MouseInput.cs" />
     <Compile Include="Assets\Scripts\UIMainMenu.cs" />
+    <Compile Include="Assets\Scripts\UIGameOver.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementParticles.cs" />
     <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\Scripts\SlowZone.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\UIPause.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
@@ -69,11 +72,8 @@
     <Compile Include="Assets\Scripts\ButtonDownInteract.cs" />
     <Compile Include="Assets\Scripts\KeyboardInput.cs" />
     <Compile Include="Assets\Scripts\SoundManager.cs" />
-    <Compile Include="Assets\Scripts\GameLost.cs" />
     <Compile Include="Assets\Scripts\DistanceGeneration.cs" />
-    <Compile Include="Assets\Scripts\UIGameOver.cs" />
-    <Compile Include="Assets\Scripts\SlowZone.cs" />
-    <Compile Include="Assets\Scripts\GasMaskPickUp.cs" />
+    <Compile Include="Assets\Scripts\SlowZone1.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

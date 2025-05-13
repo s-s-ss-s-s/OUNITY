@@ -2,13 +2,33 @@ using UnityEngine;
 
 public class GasMaskPickUp : MonoBehaviour
 {
+    public AudioClip pickupSoundClip;
+    private AudioSource audioSource;
+
+    void Start()
+    {
+        audioSource = GetComponent<AudioSource>();
+    }
+
     void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
-            Debug.Log("tuk");
+            if (audioSource != null)
+            {
+                audioSource.clip = pickupSoundClip;
+                audioSource.volume = 10f;
+                audioSource.loop = false;  // Отключаем зацикливание
+                audioSource.Play();
+            }
+            else
+            {
+                Debug.LogWarning("AudioSource is null, please ensure it's attached to the GameObject.");
+            }
+
             // Устанавливаем переменную gasMask в true
             SlowZone.gasMask = true;
+            SlowZone1.gasMask = true;
 
             // Делаем объект невидимым
             GetComponent<Renderer>().enabled = false;  // Отключаем рендерер
@@ -17,7 +37,7 @@ public class GasMaskPickUp : MonoBehaviour
             GetComponent<Collider>().enabled = false;
 
             // Опционально: если хотите уничтожить объект после подбора
-            Destroy(gameObject);
+            Invoke("Destroy(gameObject)", 1f);
         }
     }
 }
