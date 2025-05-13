@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 
 public class UIGameOver : MonoBehaviour
 {
-   // public static bool GameIsOver = false; // Статическая переменная для отслеживания состояния игры
+    public static bool GameIsOver = false; // Статическая переменная для отслеживания состояния игры
     //public GameObject gameOverUI; // UI элемент для экрана завершения игры
     public GameObject player; // Игрок или объект, которому применяется скрипт мыши
     private MouseInput mouseInputScript; // Скрипт управления мышью
@@ -19,7 +19,7 @@ public class UIGameOver : MonoBehaviour
         Debug.Log("Игра завершена!"); // Логируем завершение игры
        // gameOverUI.SetActive(true); // Показываем UI завершения игры
         Time.timeScale = 0f; // Останавливаем игровое время
-        //GameIsOver = true; // Устанавливаем состояние игры как завершенное
+        GameIsOver = true; // Устанавливаем состояние игры как завершенное
 
         // Разблокируем курсор и делаем его видимым
         Cursor.lockState = CursorLockMode.None; 

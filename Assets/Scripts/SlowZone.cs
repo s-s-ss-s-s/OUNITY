@@ -11,11 +11,18 @@ public class SlowZone : MonoBehaviour
 
     private bool isInSlowZone = false; // Переменная для проверки нахождения в зоне замедления
     private PlayerMovement playerMovement; // Ссылка на скрипт игрока для изменения скорости
+    public GameObject gasMaskCanvas;
+    //private UIGameOver gameOver;
 
     void Start()
     {
         // Получаем компонент PlayerMovement на объекте игрока
         playerMovement = FindObjectOfType<PlayerMovement>();
+
+        if (UIGameOver.GameIsOver)
+        {
+            gasMask = false;
+        }
 
         // Инициализируем AudioSource, если он не установлен
         audioSource = GetComponent<AudioSource>();
@@ -30,6 +37,8 @@ public class SlowZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            isInSlowZone = true;
+
             if (!gasMask)
             {
                 // Проверяем, что audioSource не null
@@ -48,8 +57,14 @@ public class SlowZone : MonoBehaviour
                 // Замедляем движение игрока
                 playerMovement.SetSpeed(slowSpeed);
                 // Отмечаем, что игрок в зоне
-                isInSlowZone = true;
             }
+            else {
+                if (isInSlowZone)
+                {
+                    gasMaskCanvas.SetActive(true);
+                }
+            }
+
         }
     }
 
@@ -58,6 +73,11 @@ public class SlowZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (gasMask)
+            {
+                gasMaskCanvas.SetActive(false);
+            }
+
             if (!gasMask)
             {
                 // Возвращаем нормальную скорость
