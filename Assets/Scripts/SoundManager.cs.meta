@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 7f2d649d2f361274daf0dc44c8adc40e
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - firstSoundClip: {fileID: 8300000, guid: ee3a9019a6a1fe34286499fca280b809, type: 3}
+  - bgSoundClip: {fileID: 8300000, guid: 1131f08ac91fe9d42b853e6d90223acf, type: 3}
+  - deathSoundClip: {fileID: 8300000, guid: 22a496a39dd2fab49b775cb265926425, type: 3}
+  - GameOverCanvas: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
