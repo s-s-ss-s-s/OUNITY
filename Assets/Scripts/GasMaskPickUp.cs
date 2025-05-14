@@ -29,7 +29,6 @@ public class GasMaskPickUp : MonoBehaviour
             // Устанавливаем переменную gasMask в true
             SlowZone.gasMask = true;
             SlowZone1.gasMask = true;
-
             // Делаем объект невидимым
             GetComponent<Renderer>().enabled = false;  // Отключаем рендерер
 

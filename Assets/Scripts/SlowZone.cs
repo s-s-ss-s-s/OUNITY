@@ -7,6 +7,7 @@ public class SlowZone : MonoBehaviour
     public float normalSpeed = 5f; // Нормальная скорость игрока
     public float slowSpeed = 2f; // Замедленная скорость игрока
     public AudioClip enterZoneSoundClip;
+    public AudioClip enterZonewMaskSoundClip;
     private AudioSource audioSource; // Ссылка на компонент AudioSource
 
     private bool isInSlowZone = false; // Переменная для проверки нахождения в зоне замедления
@@ -31,6 +32,7 @@ public class SlowZone : MonoBehaviour
             Debug.LogError("AudioSource component is missing on the GameObject!");
         }
     }
+
 
     // Когда игрок входит в зону (Collider с триггером)
     void OnTriggerEnter(Collider other)
@@ -61,6 +63,17 @@ public class SlowZone : MonoBehaviour
             else {
                 if (isInSlowZone)
                 {
+                    if (audioSource != null)
+                    {
+                        audioSource.clip = enterZonewMaskSoundClip;
+                        audioSource.volume = 0.8f;
+                        audioSource.loop = true;  // Отключаем зацикливание
+                        audioSource.Play();
+                    }
+                    else
+                    {
+                        Debug.LogError("AudioSource is null in OnTriggerEnter!");
+                    }
                     gasMaskCanvas.SetActive(true);
                 }
             }
@@ -76,6 +89,8 @@ public class SlowZone : MonoBehaviour
             if (gasMask)
             {
                 gasMaskCanvas.SetActive(false);
+                audioSource.Stop();
+                
             }
 
             if (!gasMask)
