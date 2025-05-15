@@ -34,10 +34,15 @@ public class UIPause : MonoBehaviour
         Time.timeScale = 1f;
         GameIsPaused = false;
 
-        // Возвращаем управление мышью после возобновления игры
+        // Возвращаем управление мышью
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-        mouseInputScript.enabled = true; // Включаем скрипт мыши обратно
+
+        // Убедитесь, что скрипт мыши включен только если мы не в терминале
+        if (!OpenYellowDoor.IsTerminal)
+        {
+            mouseInputScript.enabled = true; // Включаем скрипт мыши обратно
+        }
     }
 
     void Pause()
@@ -54,6 +59,7 @@ public class UIPause : MonoBehaviour
 
     public void MainMenu()
     {
+        UIGameOver.GameIsOver = true;
         Debug.Log("Переход в главное меню..."); // Логируем переход в главное меню
         SceneManager.LoadScene("menu"); // Переход к главному меню
     }
