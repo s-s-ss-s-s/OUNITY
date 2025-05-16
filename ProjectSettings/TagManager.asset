@@ -8,6 +8,8 @@ TagManager:
   - Enemy
   - button
   - FloorDown
+  - Bodyguard
+  - Stoptape
   layers:
   - Default
   - TransparentFX

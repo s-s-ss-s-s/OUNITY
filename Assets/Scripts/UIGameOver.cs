@@ -40,6 +40,7 @@ public class UIGameOver : MonoBehaviour
 
     public void MainMenu()
     {
+        UIGameOver.GameIsOver = true;
         Debug.Log("Переход в главное меню..."); // Логируем переход в главное меню
         SceneManager.LoadScene("menu"); // Переход к главному меню
     }

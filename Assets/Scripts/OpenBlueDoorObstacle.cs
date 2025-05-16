@@ -16,8 +16,6 @@ public class OpenBlueDoorObstacle : MonoBehaviour
         // Проверяем, есть ли у игрока ключ
         if (OpenBlueDoor.hasKey)
         {
-            Debug.Log("Got key");
-
             // Уничтожаем объект через 1 секунду, если у игрока есть ключ
             DestroyObstacle();
         }

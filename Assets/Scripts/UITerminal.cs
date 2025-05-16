@@ -34,6 +34,7 @@ public class UITerminal : MonoBehaviour
             Green.SetActive(false);
             Blue.SetActive(false);
             Yellow.SetActive(false);
+            ExitScript.hasKey = true;
         }
 
         if (UIGameOver.GameIsOver)
@@ -96,5 +97,6 @@ public class UITerminal : MonoBehaviour
         Green.SetActive(false);
         Blue.SetActive(false);
         Yellow.SetActive(false);
+        OpenYellowDoor.PasswordIsCorrect = false;
     }
 }

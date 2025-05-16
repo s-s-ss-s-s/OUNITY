@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &1
+MonoBehaviour:
+  m_ObjectHideFlags: 61
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffe70aba2e7074048aca5de573b64a59, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SimpleSelectedItems:
+    m_Keys:
+    - .collabignore
+    - Assets/Animation.meta
+    - Assets/Animation/Bodyguard.anim
+    - Assets/Animation/Bodyguard.anim.meta
+    - Assets/Animation/Bodyguatd.controller
+    - Assets/Animation/Bodyguatd.controller.meta
+    - Assets/Animation/Cube (1).controller
+    - Assets/Animation/Cube (1).controller.meta
+    - Assets/Animation/Directional Light.controller
+    - Assets/Animation/Directional Light.controller.meta
+    - Assets/Animation/cube.anim
+    - Assets/Animation/cube.anim.meta
+    - Assets/Animation/cube_animation.anim
+    - Assets/Animation/cube_animation.anim.meta
+    - Assets/Animation/moving.anim
+    - Assets/Animation/moving.anim.meta
+    - Assets/Animation/moving_cube.anim
+    - Assets/Animation/moving_cube.anim.meta
+    - Assets/DialogueEditor.meta
+    - Assets/DialogueEditor/Assets.meta
+    - Assets/DialogueEditor/Assets/DefaultSprites.meta
+    - Assets/DialogueEditor/Assets/DefaultSprites/BackingImage.png
+    - Assets/DialogueEditor/Assets/DefaultSprites/BackingImage.png.meta
+    - Assets/DialogueEditor/Assets/DefaultSprites/Blank.png
+    - Assets/DialogueEditor/Assets/DefaultSprites/Blank.png.meta
+    - Assets/DialogueEditor/Assets/Prefabs.meta
+    - Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab
+    - Assets/DialogueEditor/Assets/Prefabs/ConversationButton.prefab.meta
+    - Assets/DialogueEditor/Assets/Scripts.meta
+    - Assets/DialogueEditor/Assets/Scripts/Condition.cs
+    - Assets/DialogueEditor/Assets/Scripts/Condition.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Connection.cs
+    - Assets/DialogueEditor/Assets/Scripts/Connection.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Conversation.cs
+    - Assets/DialogueEditor/Assets/Scripts/Conversation.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/ConversationNode.cs
+    - Assets/DialogueEditor/Assets/Scripts/ConversationNode.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableCondition.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableCondition.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableConnection.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableConnection.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableConversation.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableConversation.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableNode.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableNode.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableParameter.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableParameter.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs
+    - Assets/DialogueEditor/Assets/Scripts/EditableSetParamAction.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Editor.meta
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorNode.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorUtil.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorWindow.cs
+    - Assets/DialogueEditor/Assets/Scripts/Editor/DialogueEditorWindow.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs
+    - Assets/DialogueEditor/Assets/Scripts/Editor/NPCConversationEditor.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/NPCConversation.cs
+    - Assets/DialogueEditor/Assets/Scripts/NPCConversation.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/NodeEventHolder.cs
+    - Assets/DialogueEditor/Assets/Scripts/NodeEventHolder.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/Parameter.cs
+    - Assets/DialogueEditor/Assets/Scripts/Parameter.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/SetParamAction.cs
+    - Assets/DialogueEditor/Assets/Scripts/SetParamAction.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/UI.meta
+    - Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs
+    - Assets/DialogueEditor/Assets/Scripts/UI/ConversationManager.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/UI/Editor.meta
+    - Assets/DialogueEditor/Assets/Scripts/UI/Editor/ConversationManagerEditor.cs
+    - Assets/DialogueEditor/Assets/Scripts/UI/Editor/ConversationManagerEditor.cs.meta
+    - Assets/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs
+    - Assets/DialogueEditor/Assets/Scripts/UI/UIConversationButton.cs.meta
+    - Assets/DialogueEditor/ConversationManager.prefab
+    - Assets/DialogueEditor/ConversationManager.prefab.meta
+    - Assets/DialogueEditor/DialogueEditorDocumentation.pdf
+    - Assets/DialogueEditor/DialogueEditorDocumentation.pdf.meta
+    - Assets/DialogueEditor/Example.meta
+    - Assets/DialogueEditor/Example/DialogueEditorExample.unity
+    - Assets/DialogueEditor/Example/DialogueEditorExample.unity.meta
+    - Assets/DialogueEditor/Example/ExampleInputManager.cs
+    - Assets/DialogueEditor/Example/ExampleInputManager.cs.meta
+    - Assets/DialogueEditor/Example/ManIcon.png
+    - Assets/DialogueEditor/Example/ManIcon.png.meta
+    - Assets/DialogueEditor/Example/WizardIcon.png
+    - Assets/DialogueEditor/Example/WizardIcon.png.meta
+    - Assets/Images.meta
+    - Assets/Images/Black-Glasses-PNG-Transparent-Image.png
+    - Assets/Images/Black-Glasses-PNG-Transparent-Image.png.meta
+    - Assets/Images/Dora-map.png
+    - Assets/Images/Dora-map.png.meta
+    - Assets/Images/Materials.meta
+    - Assets/Images/Materials/Black-Glasses-PNG-Transparent-Image.mat
+    - Assets/Images/Materials/Black-Glasses-PNG-Transparent-Image.mat.meta
+    - Assets/Images/Materials/Terminal.mat
+    - Assets/Images/Materials/Terminal.mat.meta
+    - Assets/Images/Materials/blue4.mat
+    - Assets/Images/Materials/blue4.mat.meta
+    - Assets/Images/Materials/bluedoor.mat
+    - Assets/Images/Materials/bluedoor.mat.meta
+    - Assets/Images/Materials/exit.mat
+    - Assets/Images/Materials/exit.mat.meta
+    - Assets/Images/Materials/green0.mat
+    - Assets/Images/Materials/green0.mat.meta
+    - Assets/Images/Materials/keepout.mat
+    - Assets/Images/Materials/keepout.mat.meta
+    - Assets/Images/Materials/red1.mat
+    - Assets/Images/Materials/red1.mat.meta
+    - Assets/Images/Materials/yellow2.mat
+    - Assets/Images/Materials/yellow2.mat.meta
+    - Assets/Images/Materials/yellow4.mat
+    - Assets/Images/Materials/yellow4.mat.meta
+    - Assets/Images/backroom_floor.jpg
+    - Assets/Images/backroom_floor.jpg.meta
+    - Assets/Images/backroom_wall.jpg
+    - Assets/Images/backroom_wall.jpg.meta
+    - Assets/Images/blue key.png
+    - Assets/Images/blue key.png.meta
+    - Assets/Images/blue4.png
+    - Assets/Images/blue4.png.meta
+    - Assets/Images/bluedoor.jpg
+    - Assets/Images/bluedoor.jpg.meta
+    - Assets/Images/exit.png
+    - Assets/Images/exit.png.meta
+    - Assets/Images/gasmask.png
+    - Assets/Images/gasmask.png.meta
+    - Assets/Images/green0.png
+    - Assets/Images/green0.png.meta
+    - Assets/Images/keepout.png
+    - Assets/Images/keepout.png.meta
+    - Assets/Images/map.png
+    - Assets/Images/map.png.meta
+    - Assets/Images/mem-o-kak-size_834x1015.jpg
+    - Assets/Images/mem-o-kak-size_834x1015.jpg.meta
+    - Assets/Images/red1.png
+    - Assets/Images/red1.png.meta
+    - Assets/Images/yellow key.png
+    - Assets/Images/yellow key.png.meta
+    - Assets/Images/yellow2.png
+    - Assets/Images/yellow2.png.meta
+    - Assets/Images/yellowterminal.jpg
+    - Assets/Images/yellowterminal.jpg.meta
+    - "Assets/Images/\u043F\u0440\u043E\u0442\u0438\u0432\u043E\u0433\u0430\u0437_\u043E\u0442_\u043F\u0435\u0440\u0432\u043E\u0433\u043E_\u043B\u0438\u0446\u0430.png"
+    - "Assets/Images/\u043F\u0440\u043E\u0442\u0438\u0432\u043E\u0433\u0430\u0437_\u043E\u0442_\u043F\u0435\u0440\u0432\u043E\u0433\u043E_\u043B\u0438\u0446\u0430.png.meta"
+    - Assets/Low poly Gems.meta
+    - Assets/Low poly Gems/Gems Demo.unity
+    - Assets/Low poly Gems/Gems Demo.unity.meta
+    - Assets/Low poly Gems/Materials.meta
+    - Assets/Low poly Gems/Materials/Stone4.mat
+    - Assets/Low poly Gems/Materials/Stone4.mat.meta
+    - Assets/Low poly Gems/Mesh.meta
+    - Assets/Low poly Gems/Mesh/Stone4.fbx
+    - Assets/Low poly Gems/Mesh/Stone4.fbx.meta
+    - Assets/Low poly Gems/Prefabs.meta
+    - Assets/Low poly Gems/Prefabs/Stone4.prefab
+    - Assets/Low poly Gems/Prefabs/Stone4.prefab.meta
+    - Assets/Low poly Gems/Texture.meta
+    - Assets/Low poly Gems/Texture/Stone4.meta
+    - Assets/Low poly Gems/Texture/Stone4/AO Stone4.png
+    - Assets/Low poly Gems/Texture/Stone4/AO Stone4.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/Albedo Stone4.png
+    - Assets/Low poly Gems/Texture/Stone4/Albedo Stone4.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/HDRP URP.meta
+    - Assets/Low poly Gems/Texture/Stone4/HDRP URP/Stone4_MaskMap.png
+    - Assets/Low poly Gems/Texture/Stone4/HDRP URP/Stone4_MaskMap.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/HDRP URP/Stone4_MetallicSmoothness.png
+    - Assets/Low poly Gems/Texture/Stone4/HDRP URP/Stone4_MetallicSmoothness.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/Metall Stone4.png
+    - Assets/Low poly Gems/Texture/Stone4/Metall Stone4.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/Normal Stone4.png
+    - Assets/Low poly Gems/Texture/Stone4/Normal Stone4.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/Stone4_Emissive.png
+    - Assets/Low poly Gems/Texture/Stone4/Stone4_Emissive.png.meta
+    - Assets/Low poly Gems/Texture/Stone4/Stone4_Roughness.png
+    - Assets/Low poly Gems/Texture/Stone4/Stone4_Roughness.png.meta
+    - Assets/Materials.meta
+    - Assets/Materials/2.mat
+    - Assets/Materials/2.mat.meta
+    - Assets/Materials/EnemyMaterial.mat
+    - Assets/Materials/EnemyMaterial.mat.meta
+    - Assets/Materials/Fog_material.mat
+    - Assets/Materials/Fog_material.mat.meta
+    - Assets/Materials/New Material 1.mat
+    - Assets/Materials/New Material 1.mat.meta
+    - Assets/Materials/New Material.mat
+    - Assets/Materials/New Material.mat.meta
+    - Assets/Materials/backroom_floor.mat
+    - Assets/Materials/backroom_floor.mat.meta
+    - Assets/Materials/backroom_wall.mat
+    - Assets/Materials/backroom_wall.mat.meta
+    - Assets/Materials/mem-o-kak-size_834x1015.mat
+    - Assets/Materials/mem-o-kak-size_834x1015.mat.meta
+    - Assets/Music.meta
+    - Assets/Music/gem.mp3
+    - Assets/Music/gem.mp3.meta
+    - Assets/Music/gumball - ending.mp3
+    - Assets/Music/gumball - ending.mp3.meta
+    - Assets/Music/level-up-minecraft-3.mp3
+    - Assets/Music/level-up-minecraft-3.mp3.meta
+    - Assets/Music/minecraft-door-open.mp3
+    - Assets/Music/minecraft-door-open.mp3.meta
+    - Assets/Music/okh-zria-ia-tuda-polez.mp3
+    - Assets/Music/okh-zria-ia-tuda-polez.mp3.meta
+    - Assets/Music/otkryityie-vorota.mp3
+    - Assets/Music/otkryityie-vorota.mp3.meta
+    - Assets/Music/vader.mp3
+    - Assets/Music/vader.mp3.meta
+    - Assets/Music/yellowterminal.meta
+    - Assets/Music/yellowterminal/bad_password.mp3
+    - Assets/Music/yellowterminal/bad_password.mp3.meta
+    - Assets/Music/yellowterminal/good_password.mp3
+    - Assets/Music/yellowterminal/good_password.mp3.meta
+    - Assets/Music/yellowterminal/press_button.mp3
+    - Assets/Music/yellowterminal/press_button.mp3.meta
+    - "Assets/Music/yellowterminal/\u043F\u0440\u0438\u043A\u043B\u0430\u0434\u044B\u0432\u0430\u043D\u0438\u0435
+      \u043A\u0430\u0440\u0442\u044B.mp3"
+    - "Assets/Music/yellowterminal/\u043F\u0440\u0438\u043A\u043B\u0430\u0434\u044B\u0432\u0430\u043D\u0438\u0435
+      \u043A\u0430\u0440\u0442\u044B.mp3.meta"
+    - Assets/Music/you died  1.mp3
+    - Assets/Music/you died  1.mp3.meta
+    - Assets/Music/you died .mp3
+    - Assets/Music/you died .mp3.meta
+    - "Assets/Music/\u0414\u0430\u0448\u0430 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u0446\u0430
+      - \u042F \u041A\u0410\u0420\u0422\u0410.mp3"
+    - "Assets/Music/\u0414\u0430\u0448\u0430 \u043F\u0443\u0442\u0435\u0448\u0435\u0441\u0442\u0432\u0435\u043D\u043D\u0438\u0446\u0430
+      - \u042F \u041A\u0410\u0420\u0422\u0410.mp3.meta"
+    - "Assets/Music/\u0432\u0437\u044F\u0442\u0438\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0430.mp3"
+    - "Assets/Music/\u0432\u0437\u044F\u0442\u0438\u0435 \u043F\u0440\u0435\u0434\u043C\u0435\u0442\u0430.mp3.meta"
+    - "Assets/Music/\u043C\u043E\u044F \u0433\u043E\u043B\u043E\u0432\u0430 \u043C\u043E\u044F
+      \u0441\u043F\u0438\u043D\u0430 \u0433\u0434\u0435 \u044F \u043C\u0435\u043C
+      #memes.mp3"
+    - "Assets/Music/\u043C\u043E\u044F \u0433\u043E\u043B\u043E\u0432\u0430 \u043C\u043E\u044F
+      \u0441\u043F\u0438\u043D\u0430 \u0433\u0434\u0435 \u044F \u043C\u0435\u043C
+      #memes.mp3.meta"
+    - Assets/NavMeshAgentAssets.meta
+    - Assets/NavMeshAgentAssets/Editor.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshAssetManager.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshAssetManager.cs.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshComponentsEditor.asmdef
+    - Assets/NavMeshAgentAssets/Editor/NavMeshComponentsEditor.asmdef.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshComponentsGUIUtility.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshComponentsGUIUtility.cs.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshLinkEditor.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshLinkEditor.cs.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshModifierEditor.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshModifierEditor.cs.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshModifierVolumeEditor.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshModifierVolumeEditor.cs.meta
+    - Assets/NavMeshAgentAssets/Editor/NavMeshSurfaceEditor.cs
+    - Assets/NavMeshAgentAssets/Editor/NavMeshSurfaceEditor.cs.meta
+    - Assets/NavMeshAgentAssets/Scripts.meta
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshComponents.asmdef
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshComponents.asmdef.meta
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshLink.cs
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshLink.cs.meta
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshModifier.cs
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshModifier.cs.meta
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshModifierVolume.cs
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshModifierVolume.cs.meta
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshSurface.cs
+    - Assets/NavMeshAgentAssets/Scripts/NavMeshSurface.cs.meta
+    - Assets/Prefabs.meta
+    - Assets/Prefabs/Cube.prefab
+    - Assets/Prefabs/Cube.prefab.meta
+    - Assets/Prefabs/Cylinder.prefab
+    - Assets/Prefabs/Cylinder.prefab.meta
+    - Assets/Scenes.meta
+    - Assets/Scenes/Pause.unity
+    - Assets/Scenes/Pause.unity.meta
+    - Assets/Scenes/SampleScene.meta
+    - Assets/Scenes/SampleScene.unity
+    - Assets/Scenes/SampleScene.unity.meta
+    - Assets/Scenes/SampleScene/NavMesh-NavMeshGenerator.asset
+    - Assets/Scenes/SampleScene/NavMesh-NavMeshGenerator.asset.meta
+    - Assets/Scenes/SampleScene/NavMesh.asset
+    - Assets/Scenes/SampleScene/NavMesh.asset.meta
+    - Assets/Scenes/menu.unity
+    - Assets/Scenes/menu.unity.meta
+    - Assets/Scenes/test.unity
+    - Assets/Scenes/test.unity.meta
+    - Assets/Scripts.meta
+    - Assets/Scripts/BaseGenerator.cs
+    - Assets/Scripts/BaseGenerator.cs.meta
+    - Assets/Scripts/ButtonDownInteract.cs
+    - Assets/Scripts/ButtonDownInteract.cs.meta
+    - Assets/Scripts/CubeAnimation.cs
+    - Assets/Scripts/CubeAnimation.cs.meta
+    - Assets/Scripts/DistanceGeneration.cs
+    - Assets/Scripts/DistanceGeneration.cs.meta
+    - Assets/Scripts/EnemyCollision.cs
+    - Assets/Scripts/EnemyCollision.cs.meta
+    - Assets/Scripts/EnemyController.cs
+    - Assets/Scripts/EnemyController.cs.meta
+    - Assets/Scripts/ExitScript.cs
+    - Assets/Scripts/ExitScript.cs.meta
+    - Assets/Scripts/GasMaskPickUp.cs
+    - Assets/Scripts/GasMaskPickUp.cs.meta
+    - Assets/Scripts/GemCollect.cs
+    - Assets/Scripts/GemCollect.cs.meta
+    - Assets/Scripts/GemPickUp.cs
+    - Assets/Scripts/GemPickUp.cs.meta
+    - Assets/Scripts/KeyPickup.cs
+    - Assets/Scripts/KeyPickup.cs.meta
+    - Assets/Scripts/KeyboardInput.cs
+    - Assets/Scripts/KeyboardInput.cs.meta
+    - Assets/Scripts/MouseInput.cs
+    - Assets/Scripts/MouseInput.cs.meta
+    - Assets/Scripts/ObjectSpawner.cs
+    - Assets/Scripts/ObjectSpawner.cs.meta
+    - Assets/Scripts/OpenBlueDoor.cs
+    - Assets/Scripts/OpenBlueDoor.cs.meta
+    - Assets/Scripts/OpenBlueDoorObstacle.cs
+    - Assets/Scripts/OpenBlueDoorObstacle.cs.meta
+    - Assets/Scripts/OpenYellowDoor.cs
+    - Assets/Scripts/OpenYellowDoor.cs.meta
+    - Assets/Scripts/PickupMap.cs
+    - Assets/Scripts/PickupMap.cs.meta
+    - Assets/Scripts/PickupYellowKey.cs
+    - Assets/Scripts/PickupYellowKey.cs.meta
+    - Assets/Scripts/PlayerMovement.cs
+    - Assets/Scripts/PlayerMovement.cs.meta
+    - Assets/Scripts/PlayerMovementParticles.cs
+    - Assets/Scripts/PlayerMovementParticles.cs.meta
+    - Assets/Scripts/RandomGeneration.cs
+    - Assets/Scripts/RandomGeneration.cs.meta
+    - Assets/Scripts/RigidbodyMovement.cs
+    - Assets/Scripts/RigidbodyMovement.cs.meta
+    - Assets/Scripts/SlowZone.cs
+    - Assets/Scripts/SlowZone.cs.meta
+    - Assets/Scripts/SlowZone1.cs
+    - Assets/Scripts/SlowZone1.cs.meta
+    - Assets/Scripts/SoundManager.cs
+    - Assets/Scripts/SoundManager.cs.meta
+    - Assets/Scripts/TransformMovement.cs
+    - Assets/Scripts/TransformMovement.cs.meta
+    - Assets/Scripts/UIGameOver.cs
+    - Assets/Scripts/UIGameOver.cs.meta
+    - Assets/Scripts/UIMainMenu.cs
+    - Assets/Scripts/UIMainMenu.cs.meta
+    - Assets/Scripts/UIMapMenu.cs
+    - Assets/Scripts/UIMapMenu.cs.meta
+    - Assets/Scripts/UIPause.cs
+    - Assets/Scripts/UIPause.cs.meta
+    - Assets/Scripts/UITerminal.cs
+    - Assets/Scripts/UITerminal.cs.meta
+    - Assets/Shaders.meta
+    - Assets/TextMesh Pro.meta
+    - Assets/TextMesh Pro/Documentation.meta
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+    - Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf.meta
+    - Assets/TextMesh Pro/Fonts.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+    - Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt.meta
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+    - Assets/TextMesh Pro/Fonts/LiberationSans.ttf.meta
+    - Assets/TextMesh Pro/Resources.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Fallback.asset.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Outline.mat.meta
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset
+    - Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF.asset.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+    - Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets.meta
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset
+    - Assets/TextMesh Pro/Resources/Sprite Assets/EmojiOne.asset.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets.meta
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+    - Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset.meta
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset
+    - Assets/TextMesh Pro/Resources/TMP Settings.asset.meta
+    - Assets/TextMesh Pro/Shaders.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Custom-Atlas.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Bitmap.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile SSD.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF-Surface.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader
+    - Assets/TextMesh Pro/Shaders/TMP_SDF.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader
+    - Assets/TextMesh Pro/Shaders/TMP_Sprite.shader.meta
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Mobile.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc.meta
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc
+    - Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc.meta
+    - Assets/TextMesh Pro/Sprites.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt
+    - Assets/TextMesh Pro/Sprites/EmojiOne Attribution.txt.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json
+    - Assets/TextMesh Pro/Sprites/EmojiOne.json.meta
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png
+    - Assets/TextMesh Pro/Sprites/EmojiOne.png.meta
+    - Assets/test.meta
+    - Assets/test/test_convo.cs
+    - Assets/test/test_convo.cs.meta
+    - Packages/manifest.json
+    - Packages/packages-lock.json
+    - ProjectSettings/AudioManager.asset
+    - ProjectSettings/ClusterInputManager.asset
+    - ProjectSettings/DynamicsManager.asset
+    - ProjectSettings/EditorBuildSettings.asset
+    - ProjectSettings/EditorSettings.asset
+    - ProjectSettings/GraphicsSettings.asset
+    - ProjectSettings/InputManager.asset
+    - ProjectSettings/NavMeshAreas.asset
+    - ProjectSettings/Physics2DSettings.asset
+    - ProjectSettings/PresetManager.asset
+    - ProjectSettings/ProjectSettings.asset
+    - ProjectSettings/ProjectVersion.txt
+    - ProjectSettings/QualitySettings.asset
+    - ProjectSettings/TagManager.asset
+    - ProjectSettings/TimeManager.asset
+    - ProjectSettings/UnityConnectSettings.asset
+    - ProjectSettings/VFXManager.asset
+    - ProjectSettings/VersionControlSettings.asset
+    - 
+    m_Values: 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+  RevisionSummary: 
+  ChangesSearchValue: 
+  SelectedHistoryRevision: 
+  HistoryPageNumber: 0
+  TabIndex: 0
