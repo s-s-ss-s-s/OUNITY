@@ -11,11 +11,8 @@ public class OpenBlueDoor : MonoBehaviour
     void Start()
     {
         audioSource = GetComponent<AudioSource>();
-
-        if (UIGameOver.GameIsOver)
-        {
-            hasKey = false;
-        }
+        hasKey = false;
+        
 
     }
 

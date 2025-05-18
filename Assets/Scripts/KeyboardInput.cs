@@ -20,24 +20,15 @@ public class KeyboardInput : MonoBehaviour
                 Debug.LogError("Camera transform not found!");
             }
         }
-
-        if (gameOverCanvas != null)
-        {
-            gameOverCanvas.enabled = false; // Сначала скрываем Canvas
-        }
+        gameOverCanvas.enabled = false;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            Interact();
-        }
-
         // Проверка на падение ниже порога
         if (transform.position.y < -5f)
         {
-            ShowGameOverCanvas(); // Вместо перезагрузки сцены отображаем канвас
+            ShowGameOverCanvas(); 
         }
     }
 

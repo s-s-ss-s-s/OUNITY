@@ -10,7 +10,7 @@ public class VaultScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        audioSource = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class VaultScript : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && gemCollect.gemCnt == 3)
+        if (other.CompareTag("Player") && gemCollect.gemCnt == 3 && GemCollect.startCollect)
         {
             Debug.Log("tyt");
             if (audioSource != null)

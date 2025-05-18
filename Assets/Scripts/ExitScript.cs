@@ -15,12 +15,7 @@ public class ExitScript : MonoBehaviour
     {
         endGameCanvas.enabled = false;
         audioSource = GetComponent<AudioSource>();
-
-        // Проверяем, если игра завершена, то ключ отсутствует
-        if (UIGameOver.GameIsOver)
-        {
-            hasKey = false;
-        }
+        hasKey = false;
     }
 
     void OnTriggerEnter(Collider other)
@@ -32,8 +27,7 @@ public class ExitScript : MonoBehaviour
         if (other.CompareTag("Player") && hasKey)
         {
             Debug.Log("player");
-            // Воспроизведение звука при выходе
-            StartCoroutine(FadeInCanvas(endGameCanvas)); // Запуск фейда на Canvas
+            StartCoroutine(FadeInCanvas(endGameCanvas)); 
         }
     }
 
