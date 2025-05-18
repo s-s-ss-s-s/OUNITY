@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\UIGameOver.cs" />
     <Compile Include="Assets\Scripts\PlayerMovementParticles.cs" />
     <Compile Include="Assets\Scripts\ObjectSpawner.cs" />
+    <Compile Include="Assets\DieScript.cs" />
     <Compile Include="Assets\Scripts\SlowZone.cs" />
     <Compile Include="Assets\Scripts\EnemyController.cs" />
     <Compile Include="Assets\Scripts\UIPause.cs" />
@@ -103,7 +104,7 @@
     <Compile Include="Assets\Scripts\SoundManager.cs" />
     <Compile Include="Assets\Scripts\ExitScript.cs" />
     <Compile Include="Assets\Scripts\DistanceGeneration.cs" />
-    <Compile Include="Assets\DieScript.cs" />
+    <Compile Include="Assets\Scripts\VaultScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

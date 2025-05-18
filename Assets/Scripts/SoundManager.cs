@@ -90,4 +90,13 @@ public class SoundManager : MonoBehaviour
         audioSource.Play();
     }
 
+    public void EndGame()
+    {
+        if (soundCoroutine != null)
+        {
+            StopCoroutine(soundCoroutine);
+            audioSource.Stop();
+        }
+    }
+
 }
