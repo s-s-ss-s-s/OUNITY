@@ -36,6 +36,7 @@ public class UIGameOver : MonoBehaviour
         Cursor.lockState = CursorLockMode.Locked; 
         Cursor.visible = false; 
         mouseInputScript.enabled = true; // ¬ключаем скрипт мыши обратно
+        UIGameOver.GameIsOver = false;
     }
 
     public void MainMenu()

@@ -18,10 +18,9 @@ public class OpenYellowDoor : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         //mouseInputScript = player.GetComponent<MouseInput>();
-        if (UIGameOver.GameIsOver || PasswordIsCorrect)
-        {
-            hasKey = false;
-        }
+        PasswordIsCorrect = false;
+        hasKey = false;
+        uiterminal.ResetTerminal();
     }
 
     void Update()

@@ -19,6 +19,11 @@ public class UITerminal : MonoBehaviour
     {
         audioSource = GetComponent<AudioSource>();
         Time.timeScale = 1f; // Игра начинается с нормальной скорости
+        Red.SetActive(false);
+        Green.SetActive(false);
+        Blue.SetActive(false);
+        Yellow.SetActive(false);
+        OpenYellowDoor.PasswordIsCorrect = false;
     }
 
     public void Update()
